@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0
+}
+
+body{
+	background:#000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    overflow:hidden
+}
+.btn{
+	background:#37cE45;
+    padding:10px 25px;
+    color:white;
+    border:0;
+    border-radius:4px;
+    font-size:14px;
+    color:#fff;
+    font-weight:bold;
+    letter-spacing:1px;
+    cursor:pointer;
+    overflow:hidden;
+    position:relative;
+    text-transform:uppercase	
+}
+.btn:focus{
+    outline: 0;
+}
+button .circle{
+	position:absolute;
+	height:100px;
+    width:100px;
+    background:#fff;
+   	top:5px;
+    left:20px;
+    border-radius:50%;
+    transform:translate(-50%,-50%) scale(0);
+    animation:scale .5s ease-out;
+}
+
+@keyframes scale{
+	to{
+    	transform:translate(-50%,-50%) scale(3);
+        opacity:0
+    }
+}

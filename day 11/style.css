@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.key{
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 20px;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    max-width: 300px;
+    position: relative;
+}
+
+.key small{
+    position: absolute;
+    top:-50px
+}

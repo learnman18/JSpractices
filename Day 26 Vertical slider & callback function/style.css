@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+sans');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.slider-container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.left-slider{
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.left-slider > div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-slider{
+    height: 100%;
+    width: 65%;
+    position: absolute;
+    top:0;
+    left: 35%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.right-slider > div{
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+ .slider-container button{
+    position: absolute;
+    top:50%;
+    left:35%;
+    font-size: 15px;
+    padding: 10px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+button:hover{
+    color:#222
+}
+
+button:focus{
+    outline: none;
+}
+
+.button-down{
+    transform: translateX(-100%);
+}
+.button-up{
+    transform:translateY(-100%)
+}

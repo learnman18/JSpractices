@@ -1,0 +1,12 @@
+www.themoviedb.org
+
+Username : manishpan18
+Password : 8898
+Email : manishvirat18.mp@gmail.com
+
+API Key:
+
+feafae382b034ff964d466818c94c5f4
+
+
+URL : http://localhost

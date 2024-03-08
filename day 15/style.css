@@ -1,0 +1,24 @@
+.container{
+    background: #be44ad;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.counter-contianer{
+    margin: 30px 40px;
+    text-align: center;
+}
+
+.counter{
+    font-size: 30px;
+}
+
+@media (max-width:580px){
+    .container{
+        flex-direction: column;
+    }
+}

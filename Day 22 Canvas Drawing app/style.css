@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+canvas{
+    height: 500px;
+    width:600px;
+    border:2px solid steelblue
+}
+
+.toolkit{
+    padding: 1rem;
+    width: 600px;
+    background-color: slateblue;
+    border: 1px solid steelblue;
+    display: flex;
+}
+
+/* to access all the direct children of toolkit class */
+
+.toolkit >*{
+    background-color: #fff;
+    border: none;
+    font-size: 25px;
+    margin:0.25rem;
+    height: 40px;
+    width:40px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.toolkit >*:last-child{
+    margin-left: auto;
+    color: red;
+}
+

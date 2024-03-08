@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#carasoul{
+    height: 530px;
+    width: 500px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.image-container{
+    display: flex;
+    transform: translateX(0);
+    height: 500px;
+}
+
+.image-container img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.btn{
+    padding: 0.5rem;
+    color: #fff;
+    background-color: rebeccapurple;
+    width: 49.5%;
+    border:none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
